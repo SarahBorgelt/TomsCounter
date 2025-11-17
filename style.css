@@ -1,0 +1,67 @@
+/* General page background */
+* {
+     background-color: aquamarine;
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
+/* Heading style */
+h1 {
+     font-family: 'Courier New', Courier, serif;
+     margin-top: 20px;
+     font-size: 6vw;
+}
+
+/* Italics for paragraph */
+.italics {
+     font-style: italic;
+     margin-bottom: 20px;
+}
+
+/* Flex container for vertical stacking and centering */
+main {
+     display: flex;
+     flex-direction: column;    /* stack children vertically */
+     align-items: center;       /* center horizontally */
+     text-align: center;
+     padding: 20px;
+}
+
+/* Image styling */
+img {
+     display: block;
+     border-radius: 50px;
+     max-width: 500px;          
+     width: 80%;                
+     margin-bottom: 20px;
+}
+
+/* Button styling */
+button {
+     background-color: cadetblue;
+     color: white;
+     font-size: 1.2rem;
+     border: none;
+     padding: 10px 20px;
+     border-radius: 10px;
+     cursor: pointer;
+     margin-bottom: 20px;       
+     width: 30%;
+     max-width: 200px;
+}
+
+/* Counter div hidden initially */
+#totalmiss {
+     display: none;
+     font-size: 2rem;
+}
+
+header {
+     text-align: center;
+}
+
+header > p {
+     margin-top: 1vw;
+     font-size: 2vw;
+}
