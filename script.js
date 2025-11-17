@@ -12,7 +12,7 @@ button.addEventListener("click", ()=>{
 
     //Save the updated value to local storage
     localStorage.setItem("missCount", missCount)
-    img.src = "./Images/tomImage2.png";
+    img.src = "Images/tomImage2.png";
     miss.style.display = "block"
 });
 
